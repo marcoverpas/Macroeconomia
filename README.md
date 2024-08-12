@@ -3,5 +3,7 @@
 Si consiglia di scaricare [RStudio](https://posit.co/products/open-source/rstudio/) (oltre ad [R](https://www.r-project.org/)) per utilizzare i codici. In alternativa, è possibile utilizzare la versione online del programma creando un proprio profilo su [Posit Cloud](https://posit.cloud/). 
 
 Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e aggiornato nel corso del primo semestre dell'anno accademico 2024/2025.
+
 1. L'[equilbrio macroeconomico](https://github.com/marcoverpas/Macroeconomia/blob/main/equilibrio.R). Questo codice fornisce una versione dinamica del modello discusso nel **Capitolo 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.  
+
 1. *Altri codici saranno caricati a breve*
