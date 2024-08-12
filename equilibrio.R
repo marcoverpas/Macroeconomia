@@ -34,11 +34,11 @@ for (iterazioni in 1:50){
       
       Ydt[1,t] = Yt[1,t] - Tt[1,t]          # Reddito disponibile (identità)
       
-      It[1,t] = I_bar                       # Investimento (comportamento, esogena)
+      It[1,t] = I_bar                       # Investimento (comportamento)
       
-      Gt[1,t] = G_bar                       # Spesa pubblica (comportamento, esogena)
+      Gt[1,t] = G_bar                       # Spesa pubblica (comportamento)
       
-      Tt[1,t] = T_bar                       # Imposte nette (comportamento, esogena)
+      Tt[1,t] = T_bar                       # Imposte nette (comportamento)
       
       Yt[1,t] = Zt[1,t]                     # Produzione e reddito (condizione di equilibrio)
       
