@@ -1,0 +1,1 @@
+[Italian only] In quest'area sono disponibili i codici R per gli studenti del corso di Macroeconomia (per le lauree triennali di area economica) presso l'Università dell'Aquila. Le indicazioni necessarie per utilizare i codici saranno fornite nel corso delle lezioni.
