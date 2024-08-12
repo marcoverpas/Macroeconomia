@@ -1,4 +1,4 @@
-#L'equilibrio macroeconomico: un semplice modello dinamico
+# L'equilibrio macroeconomico: un semplice modello dinamico
 
 # Definisci il numero di periodi (anni) da considerare
 periodi = 25
@@ -28,11 +28,11 @@ for (iterazioni in 1:50){
   
       # Definisci le equazioni del modello in modo dinamico ####
       
-      Zt[1,t] = Ct[1,t] + It[1,t] + Gt[1,t] # Domanda di beni (identit‡)
+      Zt[1,t] = Ct[1,t] + It[1,t] + Gt[1,t] # Domanda di beni (identit√†)
       
       Ct[1,t] = c0 + c1*Ydt[1,t-1]          # Consumo (comportamento, endogena)
       
-      Ydt[1,t] = Yt[1,t] - Tt[1,t]          # Reddito disponibile (identit‡)
+      Ydt[1,t] = Yt[1,t] - Tt[1,t]          # Reddito disponibile (identit√†)
       
       It[1,t] = I_bar                       # Investimento (comportamento, esogena)
       
