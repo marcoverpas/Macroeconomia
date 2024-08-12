@@ -45,10 +45,10 @@ for (iterazioni in 1:50){
   }
 }
 
-# Calcolo del valore di produzione di equilibrio (di stato stazionario) ####
+# Calcola il valore della produzione di equilibrio (di stato stazionario) ####
 Y_star = (c0+I_bar+G_bar-c1*T_bar)/(1-c1)
 
-# Visualizzazione dei risultati ####
+# Visualizza i risultati ####
 plot(Yt[1,2:periodi], type="l", col=2, lwd=3, xlab="Anni", ylab="Euro",
      main="Produzione: evoluzione nel tempo verso l'equilbrio macroeconomico")
 abline(h=Y_star,lty=2)
