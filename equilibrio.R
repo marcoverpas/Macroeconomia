@@ -20,7 +20,7 @@ It = matrix(data=I_bar, nrow=1, ncol=periodi)
 Gt = matrix(data=G_bar, nrow=1, ncol=periodi)
 Tt = matrix(data=T_bar, nrow=1, ncol=periodi)
 
-# Definisci un numero sufficiente di iterazioni per far convergere il modello alla soluzione di stato stazionario ####
+# Definisci un numero sufficiente di iterazioni per convergere alla soluzione simultanea del sistema di equazioni ####
 for (iterazioni in 1:50){
   
   # Definisci la sequenza di periodi ####
