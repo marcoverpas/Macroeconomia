@@ -4,7 +4,7 @@ Si consiglia di scaricare [RStudio](https://posit.co/products/open-source/rstudi
 
 Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e aggiornato nel corso del primo semestre dell'anno accademico 2024/2025.
 
-1. [La stima della funzione di consumo]([https://github.com/marcoverpas/Macroeconomia/blob/main/stima_consumi.R). Utilizzando una regressione lineare, questo codice consente di stimare i coefficienti della funzione di consumo discussa nel **Capitolo 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
+1. [La stima della funzione di consumo](https://github.com/marcoverpas/Macroeconomia/blob/main/stima_consumi.R). Utilizzando una regressione lineare, questo codice consente di stimare i coefficienti della funzione di consumo discussa nel **Capitolo 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
 1. L'[equilbrio macroeconomico](https://github.com/marcoverpas/Macroeconomia/blob/main/equilibrio.R). Questo codice fornisce una versione dinamica del modello discusso nel **Capitolo 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.  
 
