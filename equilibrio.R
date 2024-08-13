@@ -31,7 +31,7 @@ for (iterazioni in 1:50){
       
         # Definisci le equazioni del modello in modo dinamico ####
         Zt[1,t] = Ct[1,t] + It[1,t] + Gt[1,t]  # Domanda di beni (identità)
-        Ct[1,t] = c0 + c1*Ydt[1,t-1]           # Consumo (comportamento)
+        Ct[1,t] = c0 + c1*Ydt[1,t-1]           # Consumo (comportamento). Nota il ritardo temporale in Ydt.
         Ydt[1,t] = Yt[1,t] - Tt[1,t]           # Reddito disponibile (identità)
         It[1,t] = I_bar                        # Investimento (comportamento)
         Gt[1,t] = G_bar                        # Spesa pubblica (comportamento)
