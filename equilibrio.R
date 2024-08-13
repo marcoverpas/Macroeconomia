@@ -4,7 +4,7 @@
 periodi = 25
 
 # Definisci il valore dei parametri e delle variabili esogene del modello ####
-c0 = 1
+c0 = 0
 c1 = 0.6
 I_bar = 0
 G_bar = 0
@@ -26,22 +26,17 @@ for (iterazioni in 1:50){
   # Definisci la sequenza di periodi ####
     for (t in 2:periodi){
   
-      # Definisci le equazioni del modello in modo dinamico ####
+      # Introduci 1 euro di spesa pubblica a partire dal quinto anno successivo a quello di partenza (2) ####
+      if(t<7){c0=0}else{c0=1}    
       
-      Zt[1,t] = Ct[1,t] + It[1,t] + Gt[1,t] # Domanda di beni (identità)
-      
-      Ct[1,t] = c0 + c1*Ydt[1,t-1]          # Consumo (comportamento, endogena)
-      
-      Ydt[1,t] = Yt[1,t] - Tt[1,t]          # Reddito disponibile (identità)
-      
-      It[1,t] = I_bar                       # Investimento (comportamento)
-      
-      Gt[1,t] = G_bar                       # Spesa pubblica (comportamento)
-      
-      Tt[1,t] = T_bar                       # Imposte nette (comportamento)
-      
-      Yt[1,t] = Zt[1,t]                     # Produzione e reddito (condizione di equilibrio)
-      
+        # Definisci le equazioni del modello in modo dinamico ####
+        Zt[1,t] = Ct[1,t] + It[1,t] + Gt[1,t]  # Domanda di beni (identità)
+        Ct[1,t] = c0 + c1*Ydt[1,t-1]           # Consumo (comportamento)
+        Ydt[1,t] = Yt[1,t] - Tt[1,t]           # Reddito disponibile (identità)
+        It[1,t] = I_bar                        # Investimento (comportamento)
+        Gt[1,t] = G_bar                        # Spesa pubblica (comportamento)
+        Tt[1,t] = T_bar                        # Imposte nette (comportamento)
+        Yt[1,t] = Zt[1,t]                      # Produzione e reddito (condizione di equilibrio)
   }
 }
 
