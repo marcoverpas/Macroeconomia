@@ -1,6 +1,6 @@
 [*Italian only*] In quest'area sono disponibili i codici `R` relativi all'insegnamento di **Macroeconomia** per le lauree triennali di area economica attive presso l'Università dell'Aquila. Le indicazioni necessarie per utilizzare il materiale qui caricato saranno fornite nel corso delle lezioni.
 
-Si consiglia di scaricare [RStudio](https://posit.co/products/open-source/rstudio/) (oltre ad [R](https://www.r-project.org/)) per utilizzare i codici. In alternativa, è possibile utilizzare la versione online del programma creando un proprio profilo su [Posit Cloud](https://posit.cloud/). 
+Si consiglia di scaricare [RStudio](https://posit.co/products/open-source/rstudio/) (in aggiunta ad [R](https://www.r-project.org/)) per utilizzare i codici. In alternativa, è possibile utilizzare la versione online del programma creando un proprio profilo su [Posit Cloud](https://posit.cloud/). 
 
 Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e aggiornato nel corso del primo semestre dell'anno accademico 2024/2025.
 
