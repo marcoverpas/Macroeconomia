@@ -44,6 +44,6 @@ for (iterazioni in 1:50){
 Y_star = (c0+I_bar+G_bar-c1*T_bar)/(1-c1)
 
 # Visualizza i risultati ####
-plot(Yt[1,2:periodi], type="l", col=2, lwd=3, xlab="Anni", ylab="Euro",
+plot(Yt[1,2:periodi], type="l", col="purple2", lwd=3, xlab="Anni", ylab="Euro",
      main="Produzione: evoluzione nel tempo verso l'equilbrio macroeconomico")
 abline(h=Y_star,lty=2)
