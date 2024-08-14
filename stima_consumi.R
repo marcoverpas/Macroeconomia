@@ -36,9 +36,12 @@ c0 <- coef(model)["(Intercept)"]
 c1 <- coef(model)["delta_Yd"]
 
 # 9. Visualizzamo la retta di regressione ####
-plot(delta_Yd/1000, delta_C/1000, main = "b) Variazioni di reddito disponibile e consumo in Italia (2002-2023)",
+plot(delta_Yd/1000, delta_C/1000,
+     pch=21,col="purple2",bg="green",
+     main = "b) Variazioni di reddito disponibile e consumo in Italia (2002-2023)",
      xlab = "Variazione del consumo \n (miliardi di euro del 2010)",
-     ylab = "Variazione del reddito \n (miliardi di euro del 2010)")
+     ylab = "Variazione del reddito \n (miliardi di euro del 2010)",
+     ylim = range(min(-120),max(80)))
 abline(model, col = "purple2")
 abline(h=0)
 abline(v=0)
@@ -47,13 +50,15 @@ abline(v=0)
 delta_C_e <- c0 + c1*delta_Yd
 
 # 11. Confrontiamo i consumi previsti dal modello con quelli effettivi ####
-plot(data$Anno, delta_C/1000, main = "c) Variazione nel consumo effettivo e previsto",
+plot(data$Anno, delta_C/1000,
+     pch = 21, col = "purple2",
+     main = "c) Variazione nel consumo effettivo e previsto",
      xlab = "Anno",
-     ylab = "Variazioni in miliardi di euro (2010)",
+     ylab = "Variazione assoluta \n (miliardi di euro del 2010)",
      ylim=range(min(delta_C/1000),max(delta_C_e/1000)))
-lines(data$Anno, delta_C_e/1000, col="purple2")
+lines(data$Anno, delta_C_e/1000, col="green3")
 abline(h=0)
 abline(v=2010)
 legend("topleft",c("Osservato","Previsto"),  bty = 'n', cex=1,
        pch = c(1,NA), lty=c(NA,1),
-       col = c(1,"purple2"), box.lty=0)
+       col = c("purple2","green3"), box.lty=0)
