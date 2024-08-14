@@ -8,4 +8,6 @@ Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e 
 
 1. L'[equilbrio macroeconomico](https://github.com/marcoverpas/Macroeconomia/blob/main/equilibrio.R). Questo codice fornisce una versione dinamica del modello discusso nel **Capitolo 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.  
 
+1. L'[equilbrio macroeconomico come *I=S*]([https://github.com/marcoverpas/Macroeconomia/blob/main/equilibrio.R](https://github.com/marcoverpas/Macroeconomia/blob/main/equilibrio_con_S.R)). Questo codice fornisce un approfondimento in merito alla condizione di equilibrio macroeconomico discussa nel **Capitolo 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
+
 *Segue...*
