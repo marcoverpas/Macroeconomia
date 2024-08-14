@@ -8,17 +8,18 @@
 # 3. Importiamo i dati dal file csv (disponibile su Dropbox) ####
 data <- read.csv("https://www.dropbox.com/scl/fi/lejngqmu81m0fhe3skubw/Dati_Italia_diff.csv?rlkey=kj6js628wluwhutobve3zim5b&st=latfeg2p&dl=1")
 
-# 4. Ridenominiamo le due variabili ####
+# 4. Ridenominiamo le variabili ####
 delta_C <- data$delta_C   # Variazione annua del consumo reale - variazione media dal 2002
 delta_Yd <- data$delta_Yd # variazione annua del reddito disponibile - variazione media dal 2002
+Anno <- data$Anno         # Periodo di tempo considerato
 
 # 5. Visualizziamo graficamente le due variabili di interesse ####
 par(mar = c(6, 6, 4, 2))
-plot(data$Anno, data$delta_Yd/1000, type="l", col="purple2",
+plot(Anno, delta_Yd/1000, type="l", col="purple2",
      main = "a) Variazioni di reddito disponibile e consumo in Italia (2002-2023)",
      ylab = "Variazione assoluta \n (miliardi di euro del 2010)", xlab = "Anno",
      ylim=range(min(delta_Yd/1000),max(delta_Yd/1000)))
-lines(data$Anno, data$delta_C/1000, col="green3")
+lines(Anno, delta_C/1000, col="green3")
 abline(h=0)
 abline(v=2010)
 legend("topleft",c("Reddito disponibile","Consumo"),  bty = 'n', cex=1, lty=c(1,1),
@@ -50,13 +51,13 @@ abline(v=0)
 delta_C_e <- c0 + c1*delta_Yd
 
 # 11. Confrontiamo i consumi previsti dal modello con quelli effettivi ####
-plot(data$Anno, delta_C/1000,
+plot(Anno, delta_C/1000,
      pch = 21, col = "purple2",
      main = "c) Variazione nel consumo effettivo e previsto",
      xlab = "Anno",
      ylab = "Variazione assoluta \n (miliardi di euro del 2010)",
      ylim=range(min(delta_C/1000),max(delta_C_e/1000)))
-lines(data$Anno, delta_C_e/1000, col="green3")
+lines(Anno, delta_C_e/1000, col="green3")
 abline(h=0)
 abline(v=2010)
 legend("topleft",c("Osservato","Previsto"),  bty = 'n', cex=1,
