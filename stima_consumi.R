@@ -39,8 +39,8 @@ c1 <- coef(model)["delta_Yd"]
 plot(delta_Yd/1000, delta_C/1000,
      pch=21,col="purple2",bg="green",
      main = "b) Variazioni di reddito disponibile e consumo in Italia (2002-2023)",
-     xlab = "Variazione del consumo \n (miliardi di euro del 2010)",
-     ylab = "Variazione del reddito \n (miliardi di euro del 2010)",
+     xlab = "Variazione del reddito disponibile \n (miliardi di euro del 2010)",
+     ylab = "Variazione del consumo \n (miliardi di euro del 2010)",
      ylim = range(min(-120),max(80)))
 abline(model, col = "purple2")
 abline(h=0)
