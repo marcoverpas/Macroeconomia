@@ -10,6 +10,6 @@ Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e 
 
 1. L'[equilbrio macroeconomico come *I=S*](https://github.com/marcoverpas/Macroeconomia/blob/main/equilibrio_con_S.R). Questo codice fornisce un approfondimento in merito alla condizione di equilibrio macroeconomico discussa nel **Capitolo 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
-1. Un modello VAR per gli Stati Uniti. Questo codice fornisce un approfondimento in merito all'evidenza empirica sulle conclusioni derivabili da un modello IS-LM, come discusso nel **Capitolo 5** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
+1. Un [modello VAR per gli Stati Uniti](https://github.com/marcoverpas/Macroeconomia/blob/main/var_usa.R). Questo codice fornisce un approfondimento sull'evidenza empirica in merito alle conclusioni derivabili da un modello IS-LM discussa nel **Capitolo 5** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
 *Segue...*
