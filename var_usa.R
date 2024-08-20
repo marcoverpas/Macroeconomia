@@ -8,7 +8,7 @@ library(zoo)
 # Importiamo i dati ####
 data <- read.csv("https://www.dropbox.com/scl/fi/u8hsns09gaolfr89nz0yl/Dati_VAR_USA.csv?rlkey=n19p28hpn57kp1s5tpqxnnzer&st=rqhworhu&dl=1")
 
-   # Nota: sono 3 serie storiche trimestrali (pil reale, variazione % del deflatore del pil (inflazione) e tasso sui fondi federali)
+   # Nota: sono 3 serie storiche con frequenza trimestrale (pil reale annuale, variazione % trimestrale del deflatore del pil e tasso annuale sui fondi federali)
 
 # Mostriamo le prime righe dei dati per un controllo rapido ####
 head(data)
