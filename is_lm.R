@@ -7,7 +7,7 @@ nscen = 2
 c0 = 12       # Componente autonoma dei consumi
 c1 = 0.8      # Propensione marginale al consumo (e all'investimento)
 i0 = 6        # Componente autonoma dell'investimento
-i1 = 5        # Elasticit‡ dell'investimento al tasso di interesse (preceduta da segno meno)
+i1 = 5        # Elasticit√† dell'investimento al tasso di interesse (preceduta da segno meno)
 G = 4         # Spesa pubblica
 t = 2         # Tasse (Nota: "T" in R sta per "True")
 
@@ -45,15 +45,15 @@ for (j in 1:nscen){
 layout(matrix(c(1,2), 1, 2, byrow = TRUE))
 
 # Scenario con tasso di policy basso
-plot(Y[1,0:10],i[1,0:10], type="l", col = 2, lwd = 2,
+plot(Y[1,0:10], i[1,0:10], type = "l", col = 2, lwd = 2,
      main = "a) Modello IS-LM: tasso di policy basso",
      ylab = "Tasso di interesse, i", xlab = "Produzione (reddito), Y" )
-lines(Y[1,0:10],i_t[1,0:10], col = 4, lwd = 2)
+lines(Y[1,0:10], i_t[1,0:10], col = 4, lwd = 2)
 abline(v = Y_t[1,], lty = 3)
 
 # Scenario con tasso di policy alto
-plot(Y[2,0:10],i[2,0:10], type="l", col = 2, lwd = 2,
+plot(Y[2,0:10], i[2,0:10], type = "l", col = 2, lwd = 2,
      main = "b) Modello IS-LM: tasso di policy alto",
      ylab = "Tasso di interesse, i", xlab = "Produzione (reddito), Y" )
-lines(Y[2,0:10],i_t[2,0:10], col = 4, lwd = 2)
+lines(Y[2,0:10], i_t[2,0:10], col = 4, lwd = 2)
 abline(v = Y_t[2,], lty = 3)
