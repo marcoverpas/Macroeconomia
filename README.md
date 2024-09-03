@@ -14,4 +14,6 @@ Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e 
 
 1. Un [modello VAR per gli Stati Uniti](https://github.com/marcoverpas/Macroeconomia/blob/main/var_usa.R). Questo codice fornisce un approfondimento sull'evidenza empirica in merito alle conclusioni derivabili da un modello IS-LM discussa nel **Capitolo 5** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
+1. La [curva di Phillips per l'Italia](https://github.com/marcoverpas/Macroeconomia/blob/main/pc_italia.R). Questo codice consente di stimare i coefficienti della Curva di Phillips per l'Italia, sulla base di quanto discusso nel **Capitolo 8** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
+
 *Segue...*
