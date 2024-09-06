@@ -16,4 +16,6 @@ Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e 
 
 1. La [curva di Phillips per l'Italia](https://github.com/marcoverpas/Macroeconomia/blob/main/pc_italia.R). Questo codice consente di stimare i coefficienti della Curva di Phillips per l'Italia, sulla base di quanto discusso nel **Capitolo 8** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
+1. Il [modello *IS-LM-PC*](https://github.com/marcoverpas/Macroeconomia/blob/main/is_lm_pc.R). Questo codice consente di generare una versione dinamica del modello *IS-LM-PC* discusso nel **Capitolo 9** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
+
 *Segue...*
