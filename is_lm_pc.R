@@ -8,11 +8,11 @@ nperiodi = 60
 c0 = 12       # Componente autonoma dei consumi
 c1 = 0.8      # Propensione marginale al consumo (e all'investimento)
 i0 = 6        # Componente autonoma dell'investimento
-i1 = 15        # Elasticit‡ dell'investimento al tasso di interesse (preceduta da segno meno)
+i1 = 15       # Elasticit√† dell'investimento al tasso di interesse (preceduta da segno meno)
 tau = 0.1     # Aliquota fiscale media sul reddito
 Y0 = 81.07143 # Valore di equilibrio della produzione
-alpha = 0.005 # Sensibilit‡ della variazione del tasso di inflazione all'output gap
-rho = 0.15    # Coefficiente di aggiutamento del tasso di interesse reale corrente al suo livello di equilibrio
+alpha = 0.005 # Sensibilit√† della variazione del tasso di inflazione all'output gap
+rho = 0.15    # Coefficiente di aggiustamento del tasso di interesse reale corrente al suo livello di equilibrio
 
 # Definisci le variabili endogene del modello ####
 Y = matrix(data=Y0, nrow = nscen, ncol = nperiodi )          # Produzione e reddito
