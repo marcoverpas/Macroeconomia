@@ -6,11 +6,13 @@ Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e 
 
 1. La [stima della funzione di consumo](https://github.com/marcoverpas/Macroeconomia/blob/main/stima_consumi.R). Utilizzando una regressione lineare, questo codice consente di stimare i coefficienti della funzione di consumo discussa nel **Capitolo 3** e nell'**Appendice 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
-1. L'[equilbrio macroeconomico](https://github.com/marcoverpas/Macroeconomia/blob/main/equilibrio.R). Questo codice fornisce una versione dinamica del modello discusso nel **Capitolo 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.  
+1. L'[equilbrio macroeconomico](https://github.com/marcoverpas/Macroeconomia/blob/main/equilibrio.R). Questo codice fornisce una versione dinamica del modello discusso nel **Capitolo 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*. 
 
 1. L'[equilbrio macroeconomico come *I=S*](https://github.com/marcoverpas/Macroeconomia/blob/main/equilibrio_con_S.R). Questo codice fornisce un approfondimento in merito alla condizione di equilibrio macroeconomico discussa nel **Capitolo 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
-1. Il [modello base *IS-LM*](https://github.com/marcoverpas/Macroeconomia/blob/main/is_lm.R). Questo codice consente di replicare il modello *IS-LM* discusso nei **Capitoli 3, 4 e 5** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
+1. Il [modello base *IS-LM*](https://x52gnt-marco-passarella.shinyapps.io/modello_is-lm_inter/). Questo codice consente di replicare il modello *IS-LM* discusso nei **Capitoli 3, 4 e 5** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
+
+1. Una [versione interattiva del modello *IS-LM*](https://x52gnt-marco-passarella.shinyapps.io/modello_is-lm-pc_inter/). Pagina interattiva che consente di effettuare esperimenti con il modello *IS-LM*.
 
 1. Un [modello VAR per gli Stati Uniti](https://github.com/marcoverpas/Macroeconomia/blob/main/var_usa.R). Questo codice fornisce un approfondimento sull'evidenza empirica in merito alle conclusioni derivabili da un modello IS-LM discussa nel **Capitolo 5** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
