@@ -1,28 +1,28 @@
-# Carica i pacchetti necessari
+# Carica i pacchetti necessari ####
 library(plotly)
 library(viridis)
 
-# Definisci i parametri della funzione di Leontief
+# Definisci i parametri della funzione di Leontief ####
 k <- 1  # Proporzione fissa di K
 n <- 1  # Proporzione fissa di L
 
-# Definisci intervalli di valori per K e L
+# Definisci intervalli di valori per K e L ####
 K <- seq(0, 100, by = 1)
 L <- seq(0, 100, by = 1)
 
-# Crea tutte le combinazioni di K e L
+# Crea tutte le combinazioni di K e L ####
 grid <- expand.grid(K = K, L = L)
 
-# Calcola Y per ciascuna combinazione di of K e L
+# Calcola Y per ciascuna combinazione di of K e L ####
 grid$Y <- pmin(grid$K / k, grid$L / n)
 
-# Trasforma i dati in forma matriciale (per consentire i grafici)
+# Trasforma i dati in forma matriciale (per consentire i grafici) ####
 z_matrix <- matrix(grid$Y, nrow = length(K), ncol = length(L))
 
-# Definisci gli isoquanti
+# Definisci gli isoquanti ####
 isoquant_levels <- seq(10, 100, by = 10)
 
-# Stampa la f.d.p. in 3D
+# Stampa la f.d.p. in 3D ####
 plot_ly(x = K, y = L, z = z_matrix) %>%
   add_surface(
     colorscale = "Jet",
