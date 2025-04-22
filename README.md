@@ -20,7 +20,7 @@ Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e 
 
 1. Il [modello *IS-LM-PC*](https://github.com/marcoverpas/Macroeconomia/blob/main/is_lm_pc.R). Questo codice consente di generare una versione dinamica del modello *IS-LM-PC* discusso nel **Capitolo 9** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
-1. Una [versione interattiva del modello *IS-LM-PC*](https://x52gnt-marco-passarella.shinyapps.io/modello_is-lm-pc_inter/). Pagina interattiva che consente di effettuare esperimenti con la versione dinamica del modello *IS-LM-PC* di cui sopra.
+1. Una [versione interattiva del modello *IS-LM-PC*](https://x52gnt-marco-passarella.shinyapps.io/modello_is-lm-pc_inter_eng/). Pagina interattiva che consente di effettuare esperimenti con la versione dinamica del modello *IS-LM-PC* di cui sopra.
 
 1. La [funzione di produzione Cobb-Douglas](https://github.com/marcoverpas/Macroeconomia/blob/main/cobb_douglas.R) e la [funzione di produzione di Leontief](https://github.com/marcoverpas/Macroeconomia/blob/main/leontief.R). Questi codici forniscono due diverse specificazioni per la funzione di produzione aggregata discussa nel **Capitolo 10** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*. Una versione interattiva (in lingua inglese) è [disponibile qui](https://x52gnt-marco-passarella.shinyapps.io/cobb_douglas_inter/).
 
