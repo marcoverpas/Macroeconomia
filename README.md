@@ -24,4 +24,4 @@ Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e 
 
 1. La [funzione di produzione Cobb-Douglas](https://github.com/marcoverpas/Macroeconomia/blob/main/cobb_douglas.R) e la [funzione di produzione di Leontief](https://github.com/marcoverpas/Macroeconomia/blob/main/leontief.R). Questi codici forniscono due diverse specificazioni per la funzione di produzione aggregata discussa nel **Capitolo 10** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*. Una versione interattiva (in lingua inglese) è [disponibile qui](https://x52gnt-marco-passarella.shinyapps.io/cobb_douglas_inter/).
 
-Per informazioni sul materiale didattico, potete contattarmi all'indirizzo seguente: marco.veronesepassarella@univaq.it. 
+Per informazioni sul materiale didattico, potete contattarmi all'indirizzo seguente: marco.veronesepassarella@univaq.it. Per informazioni addizionali, potete consultare il mio [sito istituzionale](https://ec.univaq.it/index.php?id=veronesepassarella).
