@@ -32,8 +32,8 @@ model <- lm(delta_C ~ delta_Yd, data = data)
 summary(model)
 
 # Nota:
-# Regressione C = c0 + c1*YD
-# Se p-value(b) < 0.01, sotto l'ipotesi nulla H0: c1=0, allora
+# Regressione delta(C) = c0 + c1*delta(Yd)
+# Se p-value(c1) < 0.01, sotto l'ipotesi nulla H0: c1=0, allora
 # la probabilità di osservare una stima di c1 almeno così distante da 0
 # (in unità di errore standard) è < 1%.
 # I dati risultano quindi incompatibili con H0. 
@@ -70,4 +70,5 @@ abline(v=2010)
 legend("topleft",c("Osservato","Previsto"),  bty = 'n', cex=1,
        pch = c(1,NA), lty=c(NA,1),
        col = c("purple2","green3"), box.lty=0)
+
 
