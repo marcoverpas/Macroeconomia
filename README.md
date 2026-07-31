@@ -1,4 +1,12 @@
-[*Italian only*] In quest'area sono disponibili i codici `R` relativi all'insegnamento di [Macroeconomia](https://univaq.coursecatalogue.cineca.it/corsi/2025/10495/insegnamenti/2026/32842/2025/9999?schemaid=11758) per le lauree triennali di area economica attive presso l'Università dell'Aquila a partire dall'A.A. 2024/2025. Le indicazioni necessarie per utilizzare il materiale qui caricato saranno fornite nel corso delle lezioni.
+[*Italian only*] In quest'area sono disponibili i codici `R` relativi all'insegnamento di [Macroeconomia](https://univaq.coursecatalogue.cineca.it/corsi/2025/10495/insegnamenti/2026/32842/2025/9999?schemaid=11758) per le lauree triennali di area economica attive presso il [DIIIE dell'Università degli Studi dell'Aquila](https://diiie.univaq.it/index.php?id=2583&no_cache=1) a partire dall'A.A. 2024/2025. .
+
+<div align="center">
+<figure>
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/macro_cover.png" width="1000">
+</figure>
+</div>
+
+Le indicazioni necessarie per utilizzare il materiale qui caricato saranno fornite nel corso delle lezioni.
 
 Si consiglia di scaricare [RStudio](https://posit.co/products/open-source/rstudio/) (in aggiunta ad [R](https://www.r-project.org/)) per utilizzare i codici. In alternativa, è possibile utilizzare la versione online del programma creando un proprio profilo su [Posit Cloud](https://posit.cloud/). 
 
