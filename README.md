@@ -24,7 +24,7 @@ Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e 
 
 1. Un [modello VAR per gli Stati Uniti](https://github.com/marcoverpas/Macroeconomia/blob/main/var_usa.R). Questo codice fornisce un approfondimento sull'evidenza empirica in merito alle conclusioni derivabili da un modello IS-LM discussa nel **Capitolo 5** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
-1. Vai al [box sul Premio Nobel per le Scienze Economiche, 2026](https://github.com/marcoverpas/Macroeconomia/blob/main/nobel_2026_hall_woodford.md). 
+1. Un [box sul Premio Nobel per le Scienze Economiche 2026](https://github.com/marcoverpas/Macroeconomia/blob/main/nobel_2026_hall_woodford.md), assegnato a Robert E. Hall e Michael Woodford "per i fondamenti microeconomici della stabilizzazione macroeconomica". Il box presenta le tre equazioni del modello nuovo-keynesiano e mostra come queste corrispondano al modello IS-LM-PC discusso in O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*, con la LM sostituita dalla regola della banca centrale. Propone, inoltre, alcuni esercizi con un [simulatore interattivo](https://x52gnt-marco-passarella.shinyapps.io/is_lm_pc_plus/), per osservare come la banca centrale contrasta gli *shock* inflazionistici e quale ruolo hanno le aspettative. 
 
 1. La [curva di Phillips per l'Italia](https://github.com/marcoverpas/Macroeconomia/blob/main/pc_italia.R). Questo codice consente di stimare i coefficienti della Curva di Phillips per l'Italia, sulla base di quanto discusso nel **Capitolo 8** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
