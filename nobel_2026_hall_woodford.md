@@ -86,9 +86,9 @@ Sul piano macroeconomico, il modello NK è un parente stretto dell'IS-LM-PC che 
 
 | Blocco | IS-LM-PC (manuale) | Modello NK |
 | --- | --- | --- |
-| Domanda | IS: la produzione cala se il tasso reale sale | IS dinamica: conta anche l'output gap atteso domani |
-| Politica monetaria | LM: offerta di moneta data, oppure tasso fissato (LM orizzontale) | Regola di Taylor o politica ottimale: il tasso reagisce a inflazione e output gap |
-| Offerta / prezzi | PC: inflazione legata a disoccupazione e aspettative (spesso adattive) | PC nuovo-keynesiana: inflazione legata all'output gap e all'inflazione attesa per domani |
+| Domanda | IS: la produzione cala se il tasso reale sale | IS dinamica: conta anche l'*output gap* atteso domani |
+| Politica monetaria | LM: offerta di moneta data, oppure tasso fissato (LM orizzontale) | Regola di Taylor o politica ottimale: il tasso reagisce a inflazione e *output gap* |
+| Offerta / prezzi | PC: inflazione legata a disoccupazione e aspettative (spesso adattive) | PC nuovo-keynesiana: inflazione legata all'*output gap* e all'inflazione attesa per domani |
 | Aspettative | Spesso guardano al passato | Razionali e rivolte al futuro |
 
 La logica di fondo è la stessa: uno *shock* sposta domanda o prezzi, la banca centrale muove il tasso, il tasso influenza la domanda, e questa l'inflazione. Cambia, invece, il ruolo delle aspettative: nel modello NK, ciò che famiglie e imprese si attendono per domani, agisce già oggi.
