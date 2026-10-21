@@ -10,7 +10,7 @@ Le indicazioni necessarie per utilizzare il materiale qui caricato saranno forni
 
 Si consiglia di scaricare [RStudio](https://posit.co/products/open-source/rstudio/) (in aggiunta ad [R](https://www.r-project.org/)) per utilizzare i codici. In alternativa, è possibile utilizzare la versione online del programma creando un proprio profilo su [Posit Cloud](https://posit.cloud/). 
 
-Trovate qui di seguito l'elenco del materiale disponibile, che sarà caricato e aggiornato nel corso del primo semestre dell'anno accademico 2024/2025.
+Trovate qui di seguito l'elenco del materiale disponibile, che sarà aggiornato nel corso delle lezioni.
 
 1. La [stima della funzione di consumo](https://github.com/marcoverpas/Macroeconomia/blob/main/stima_consumi.R). Utilizzando una regressione lineare, questo codice consente di stimare i coefficienti della funzione di consumo discussa nel **Capitolo 3** e nell'**Appendice 3** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
