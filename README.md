@@ -26,7 +26,7 @@ Trovate qui di seguito l'elenco del materiale disponibile, che sarà aggiornato 
 
 1. Una [critica del modello *IS-LM*](https://www.tandfonline.com/doi/full/10.1080/01603477.2026.2734483). A partire da una riformulazione dinamica e contabilmente coerente del modello *IS-LM*, questo articolo mostra che le prescrizioni di politica economica che discendono dal modello sono sensibili ai valori dei parametri chiave. Mostra, inoltre, che la fissazione della base monetaria da parte della banca centrale può avere effetti destabilizzanti sull'economia. 
 
-1. La [curva di Phillips per l'Italia](https://github.com/marcoverpas/Macroeconomia/blob/main/pc_italia.R). Questo codice consente di stimare i coefficienti della Curva di Phillips per l'Italia, sulla base di quanto discusso nel **Capitolo 8** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
+1. La [curva di Phillips per l'Italia](https://github.com/marcoverpas/Macroeconomia/blob/main/pc_italia.R). Questo codice consente di stimare i coefficienti della Curva di Phillips per l'Italia, sulla base di quanto discusso nel **Capitolo 8** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*. Una versione leggermente più avanzata è disponibile [qui](https://github.com/marcoverpas/Macroeconomia/blob/main/pc_italia_plus.R).
 
 1. Il [modello *IS-LM-PC*](https://github.com/marcoverpas/Macroeconomia/blob/main/is_lm_pc.R). Questo codice consente di generare una versione dinamica del modello *IS-LM-PC* discusso nel **Capitolo 9** di O. Blanchard, A. Amighini e F. Giavazzi, *Macroeconomia: una prospettiva europea*.
 
