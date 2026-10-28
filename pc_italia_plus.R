@@ -1,4 +1,5 @@
-# Stima della curva di Phillips per l'Italia
+# Stima della curva di Phillips per l'Italia (versione avanzata)
+# # Ultima modifica: 28 ottobre 2026
 # =========================================================================
 
 # 1. Dati ####
