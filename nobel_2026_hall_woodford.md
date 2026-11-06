@@ -95,7 +95,7 @@ La logica di fondo è la stessa: uno *shock* sposta domanda o prezzi, la banca c
 
 ## Prova tu: il modello in azione
 
-Una versione in forma ridotta del modello IS-LM-PC con regola della banca centrale è disponibile online: **[apri il simulatore IS-LM-PC](https://x52gnt-marco-passarella.shinyapps.io/is_lm_pc_plus/)**. Usalo per verificare il messaggio centrale del *box*: ogni *shock* che porta l'inflazione sopra l'obiettivo viene contrastato con un aumento del tasso d'interesse.
+Una versione in forma ridotta del modello IS-LM-PC con regola della banca centrale è disponibile online: **[apri il simulatore IS-LM-PC](https://marcoverpas.github.io/Macroeconomia/is_lm_pc_plus.html)**. Usalo per verificare il messaggio centrale del *box*: ogni *shock* che porta l'inflazione sopra l'obiettivo viene contrastato con un aumento del tasso d'interesse.
 
 **Come funziona il simulatore.** È la versione da manuale (IS-LM-PC) delle tre relazioni, con aspettative che guardano al passato: famiglie e imprese reagiscono a ciò che è accaduto nel periodo precedente, non a ciò che si attendono per domani.
 
